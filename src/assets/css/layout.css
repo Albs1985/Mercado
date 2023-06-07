@@ -338,7 +338,7 @@ table a, #comments a{background-color:inherit;}
 	#header #logo{margin:7px 0 0 0;}
 
 	#mainav{}
-	#mainav ul{display:none;}
+	/* #mainav ul{display:none;} */
 	#mainav form{display:block;}
 
 	#breadcrumb{}

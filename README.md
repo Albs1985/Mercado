@@ -1,6 +1,6 @@
-# Mercat
+# Mercado
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
 ## Development server
 
@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Sincronizar GIT con proyecto
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/Albs1985/Mercat.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+##  or create a new repository on the command line
+echo "# Mercat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Albs1985/Mercat.git
+git push -u origin main
+
+## or push an existing repository from the command line
+git remote add origin https://github.com/Albs1985/Mercado.git
+git branch -M main
+git push -u origin main
