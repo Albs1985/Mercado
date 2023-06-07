@@ -13,6 +13,7 @@
         "spanish": "Castellà",
         "english": "Anglès",
         "catalan": "Català",
+        "valencia": "Valencià",
         "home": "Inici",
         "galeria": "Galeria",
         "video": "Vídeo",
@@ -49,6 +50,12 @@
     },
     "productos":{
         "especialidadesTitulo": "Les nostres especialitats",
-        "especialidadesSub": "Elaborats de forma artesanal amb la recepta tradicional"
+        "especialidadesSub": "Elaborats de forma artesanal amb la recepta tradicional",
+        "ajoArriero": "AjoArriero",
+        "sardinas" : "Sardines fumades",
+        "mojama" : "Moixama",
+        "olivas" : "Olives",
+        "boquerones": "Boquerones en vinagre",
+        "pulpo" : "Polp a la brassa"
     }
 }

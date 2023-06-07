@@ -12,6 +12,7 @@
         "spanish": "Español",
         "english": "Inglés",
         "catalan": "Catalán",
+        "valencia": "Valenciano",
         "home": "Inicio",
         "galeria": "Galería",
         "video": "Vídeo",
@@ -48,6 +49,13 @@
     },
     "productos":{
         "especialidadesTitulo": "Nuestras especialidades",
-        "especialidadesSub": "Elaborados de forma artesanal con la receta tradicional"
+        "especialidadesSub": "Elaborados de forma artesanal con la receta tradicional",
+        "ajoArriero": "AjoArriero",
+        "sardinas" : "Sardinas Ahumadas",
+        "mojama" : "Mojama",
+        "olivas" : "Aceitunas",
+        "boquerones": "Boquerones en vinagre",
+        "pulpo" : "Pulpo a la brassa"
+
     }
 }

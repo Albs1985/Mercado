@@ -13,6 +13,7 @@
         "spanish": "Spanish",
         "english": "English",
         "catalan": "Catalan",
+        "valencia": "Valencian",
         "home": "Home",
         "galeria": "Gallery",
         "video": "Multimedia",
@@ -49,6 +50,12 @@
     },
     "productos":{
         "especialidadesTitulo": "Our specialities",
-        "especialidadesSub": "Made by hand with the traditional recipe"
+        "especialidadesSub": "Made by hand with the traditional recipe",
+        "ajoArriero": "AjoArriero",
+        "sardinas" : "Smoked Sardines",
+        "mojama" : "Mojama",
+        "olivas" : "Olives",
+        "boquerones": "Anchovies in vinegar",
+        "pulpo" : "Octopus"
     }
 }
