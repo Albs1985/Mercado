@@ -15,6 +15,7 @@
         "valencia": "Valenciano",
         "home": "Inicio",
         "galeria": "Galería",
+        "somos" : "Quienes somos",
         "video": "Vídeo",
         "sobre": "Acerca de mí",
         "productos": "Productos",
@@ -57,5 +58,12 @@
         "boquerones": "Boquerones en vinagre",
         "pulpo" : "Pulpo a la brassa"
 
+    },
+    "about":{
+        "titulo": "Toda una vida trabajando juntos, siempre creciendo",
+        "fraseHector": "",
+        "fraseAlicia": ""
+        
+        
     }
 }

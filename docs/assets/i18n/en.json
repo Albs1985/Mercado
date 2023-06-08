@@ -16,6 +16,7 @@
         "valencia": "Valencian",
         "home": "Home",
         "galeria": "Gallery",
+        "somos" : "Who we are",
         "video": "Multimedia",
         "sobre": "About me",
         "productos": "Products",
@@ -57,5 +58,11 @@
         "olivas" : "Olives",
         "boquerones": "Anchovies in vinegar",
         "pulpo" : "Octopus"
+    },
+    "about":{
+        "titulo": "A lifetime working together, always growing",
+        "fraseHector": "",
+        "fraseAlicia": ""
+        
     }
 }
