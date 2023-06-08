@@ -1,0 +1,68 @@
+{
+    "app": {
+        "comprar": "Buy",
+        "titulo": "Salted Hector Peris",
+        "galeriaImagenes": "Galeria",
+        "cargando": "Loading...",
+        "espere": "Wait please",
+        "nom": "Hèctor Peris Carratalà",
+        "verMas" : "Read More"
+    },
+    "main": {
+        "idioma": "Language",
+        "spanish": "Spanish",
+        "english": "English",
+        "catalan": "Catalan",
+        "valencia": "Valencian",
+        "home": "Home",
+        "galeria": "Gallery",
+        "somos" : "Who we are",
+        "video": "Multimedia",
+        "sobre": "About me",
+        "productos": "Products",
+        "redes": "Social Networks",
+        "descripcionParada" : "Since 1928 in the Central Market, Hèctor Peris comes from a family with a salt making tradition. It is well known for the quality of its moixamas, English cod, sand tuna, Almadrava tuna roe. Their handcrafted products are delicious.",
+        "descripcionMercado" : "The Central Market of the city of Valencia is located in the Ciudad de Brujas square without number in the city of Valencia. It is considered one of the masterpieces of Valencian modernism",
+        "nomMercat": "Valencia Central Market",
+        "enlaceExterno" : "External link: We are not responsible for its availability"
+    },
+    "footer": {
+        "localizacion": "Locate",
+        "textoParada": "Stan Data",
+        "textoMercado": "Delivery Central Market",
+        "direccion": "Pl. de la Ciutat de Bruges, s/n, 46001 València, Valencia",
+        "telef1": "963 829 188",
+        "email": "informacion@mercadocentralvalencia.es",
+        "telefDomicilio": "963 829 101",
+        "emailDomicilio": "pedidos@mercadocentralvalencia.es",
+        "parada": "Stand 77 and 78",
+        "horario": "Monday to Saturday from 7:30 a.m. to 3:00 p.m.",
+        "gremio": "Salted and pickled"
+    },
+    "menuCentral": {
+        "categoriasTitulo": "Our products",
+        "categoriasSub": "Made by hand with the traditional recipe",
+        "aceitunasEncurtidosTitulo" : "Olives and pickles",
+        "aceitunasEncurtidosSub" : "Olives collected with love and pickles made step by step with the greatest dedication",
+        "conservasTitulo" : "Preserves",
+        "conservasSub" : "The best preserves of the best products",
+        "prodArtesanosTitulo" : "Artisan Products - Own Elaboration",
+        "prodArtesanosSub" : "Products made by ourselves, with the recipe that we have inherited from generation to generation"        
+    },
+    "productos":{
+        "especialidadesTitulo": "Our specialities",
+        "especialidadesSub": "Made by hand with the traditional recipe",
+        "ajoArriero": "AjoArriero",
+        "sardinas" : "Smoked Sardines",
+        "mojama" : "Mojama",
+        "olivas" : "Olives",
+        "boquerones": "Anchovies in vinegar",
+        "pulpo" : "Octopus"
+    },
+    "about":{
+        "titulo": "A lifetime working together, always growing",
+        "fraseHector": "",
+        "fraseAlicia": ""
+        
+    }
+}

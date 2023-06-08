@@ -1,0 +1,39 @@
+{
+    "aceitunasNegras":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/galeria/olivas.jpg"
+    },
+    "ajoArriero":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/galeria/ajoArriero.jpg"
+    },
+    "boquerones":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/galeria/boquerones.jpg"
+    },
+    "huevasAtun":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/galeria/huevasAtun.jpg"
+    },
+    "pulpo":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/galeria/pulpo.jpg"
+    },
+    "tonyina":{
+        "categoria": "conservas",
+        "cod": "1",
+        "url": "assets/images/galeria/olivas.jpg"
+    },
+    "atun":{
+        "categoria": "conservas",
+        "cod": "1",
+        "url": "assets/images/galeria/olivas.jpg"
+    }
+    
+}
+    
