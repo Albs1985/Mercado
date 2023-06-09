@@ -1,20 +1,29 @@
 {
     "app": {
-        "comprar": "Buy",
-        "titulo": "Salted Hector Peris",
+        "comprar": "Online Shopping - Delivery",
+        "titulo": "Salted Hèctor Peris",
         "galeriaImagenes": "Galeria",
         "cargando": "Loading...",
         "espere": "Wait please",
         "nom": "Hèctor Peris Carratalà",
-        "verMas" : "Read More"
+        "verMas" : "Read More",
+        "creador": "Albert Serrador",
+        "ingrediente" : "Ingredients",
+        "empezamos": "Let's do it!",
+        "paso1":"First step",
+        "paso2":"Second step",
+        "paso3":"Third step"
     },
     "main": {
         "idioma": "Language",
         "spanish": "Spanish",
         "english": "English",
         "catalan": "Catalan",
+        "valencia": "Valencian",
         "home": "Home",
         "galeria": "Gallery",
+        "somos" : "Who we are",
+        "recetas": "Recipes",
         "video": "Multimedia",
         "sobre": "About me",
         "productos": "Products",
@@ -29,13 +38,14 @@
         "textoParada": "Stan Data",
         "textoMercado": "Delivery Central Market",
         "direccion": "Pl. de la Ciutat de Bruges, s/n, 46001 València, Valencia",
-        "telef1": "963 829 188",
+        "telef1": "+34 963 829 188",
         "email": "informacion@mercadocentralvalencia.es",
-        "telefDomicilio": "963 829 101",
+        "telefDomicilio": "+34 963 829 101",
         "emailDomicilio": "pedidos@mercadocentralvalencia.es",
         "parada": "Stand 77 and 78",
         "horario": "Monday to Saturday from 7:30 a.m. to 3:00 p.m.",
-        "gremio": "Salted and pickled"
+        "gremio": "Salted and pickled",
+        "condicionesServicio": "Consult the conditions of the home service of the Central Market"
     },
     "menuCentral": {
         "categoriasTitulo": "Our products",
@@ -49,6 +59,62 @@
     },
     "productos":{
         "especialidadesTitulo": "Our specialities",
-        "especialidadesSub": "Made by hand with the traditional recipe"
+        "especialidadesSub": "Made by hand with the traditional recipe",
+        "ajoArriero": "Ajo Arriero",
+        "sardinas" : "Smoked Sardines",
+        "mojama" : "Mojama",
+        "olivas" : "Olives",
+        "boquerones": "Anchovies in vinegar",
+        "pulpo" : "Octopus",
+        "descAjoarriero": "Made with salted cod cooked in a pan with various vegetables",
+        "descSardinas": "From the coastal areas of the Atlantic and the Mediterranean",
+        "descMojama": "Salted tuna loin",
+        "descOlivas": "The olive is a fruit, not a vegetable, not a vegetable.",
+        "descBoquerones": "Anchovies in different preparation",
+        "descPulpo": "Brassed with special care"
+    },
+    "about":{
+        "titulo": "A lifetime working together, always growing",
+        "fraseHector1": "Patience and dedication make a good fisherman.",
+        "fraseHector2": "A man has to believe in something. I think I'll go fishing",
+        "fraseAlicia1": "In fishing as in life, study and dedication, surpass any superstition",
+        "fraseAlicia2": "A fish is worth a lot to be caught once"
+        
+    },
+    "recetaEnsaladilla":{
+        "titulo": "Russian salad (Ricard Camarena version)",
+        "descripcion": "The theory that gives Russia the origin of this dish is based on the little-Russian figure of Lucien Olivier (1838-1883), a Belgian cook of French origin, who became famous in Moscow thanks to dispensing a salad at the restaurant -The Hermitage- which opened around 1860.",
+        "url": "assets/images/recetas/recetaEnsaladilla.jpg",
+        "frase1": "Cook the potatoes 🥔 and the carrots 🥕 whole and with their skin on. Let them cool, peel and grate them. Blanch the green beans and finely chop them (this will add a crunchy touch to a very creamy salad). ",
+        "frase2": "Add the red pepper 🌶chopped, the tuna 🐟and the hard-boiled egg 🥚previously grated and knead with your hands (to give it the maximum creaminess possible). Add the mayonnaise and let it rest for 4 or 5 hours in the fridge.",
+        "frase3": "Serve with picitos, I have plated it with Cantabrian anchovies and oil with paprika",
+        "ingredientes": "🛒Ingredients: \n1/2 red pepper 🌶roasted or a can small \n2 potatoes 🥔medium \n2 carrots 🥕\n6-7 green beans \n2 eggs 🥚boiled\n3 cans tuna 🐟 better if it is in crumbs (it's tastier) \n150 g light mayonnaise from @maille_esp\nPicos.\nAnchovies from the Cantabrian sea @saladureshectorperis"
+    },
+    "recetaCanutillos":{
+        "titulo": "Eclairs stuffed with roasted pepper and cod",
+        "descripcion": "It is said that the Portuguese, and especially the people from Lisbon, have 365 ways to prepare cod, a different recipe for each day of the year.",
+        "url": "assets/images/recetas/recetaCanutillos.jpg",
+        "frase1": "Make a dough with the roasted peppers, the boiled potato and the cod. Add parsley and garlic. Form the eclairs with the moulds.",
+        "frase2": "Paint with egg and add sesame seeds. Put the eclairs in the preheated oven at 180 degrees for 25 minutes.",
+        "frase3": "Remove or unmold without burning. Fill and serve",
+        "ingredientes": "🛒Ingredients: \n1 sheet of puff pastry @casa_tarradellas \nPotatoes 🥔 \nDesalted cod 🐟 @saladureshectorperis - Roasted red peppers🌶 \nParsley 🌿, garlic  \n 1 egg 🥚 @huevos.monterde \n EVOO \n sesame seeds "
+    },
+    "recetaTitaina":{
+        "titulo": "Titaina",
+        "descripcion": "The Titaina is largely unknown outside the maritime towns of Valencia, Cabanyal, Canyamelar, Gráu and Natzaret.",
+        "url": "assets/images/recetas/recetaTitaina.jpg",
+        "frase1": "We will start by grating the 🍅 . We rinse and drain the    , chop them up and do the same with the garlic   . sorra» crumbled, brown a little, remove from the oil and reserve Let's fry the peppers, but be careful not to overcook, they should not be soft, because then they will finish cooking with the tomato🍅, remove and reserve",
+        "frase2": "Now we fry the tomato 🍅in the same oil that will already have all the previous flavors. Cook for 30 minutes⏰ over medium-low heat🔥 until all the water is reduced, add the salt and sugar. Add the peppers, we will leave the tonyina and the garlic for another five minutes and turn off the heat",
+        "frase3": "This dish is much better from one day to the next, and accompanied by a lot of bread because it's eating bread 🥖 🥖 and WET!!!",
+        "ingredientes": "🛒Ingredientes: Un kilo de tomates maduros. 🍅 Un pimiento rojo. 🌶 Un pimiento verde. Una cucharada de postre de sal.🧂 Una cucharada de postre de azúcar. Cuatro cucharadas soperas de aceite de oliva. Tres dientes de ajo. 🧄 75 g de piñones. 400 g de «tonyina de sorra». Pan cristal recién horneado. 🥖"
+    },
+    "recetaPastaNegra":{
+        "titulo": "Black Pasta with cod cod at low temperature",
+        "descripcion": "Low temperature cooking is a culinary technique of haute cuisine and it no longer has to be only for great chefs, now at home we can enjoy this preparation at home, we only need a vacuum sealer and cook or in a casserole at 55 degrees or in the #thermomix as I have done. This time I have used some cocochas from @saladureshectorperis, the quality of all their products is spectacular, I recommend that you pay them a visit, they will not disappoint you.",
+        "url": "assets/images/recetas/recetaPastaNegra.jpg",
+        "frase1": "Pack the cocochas in a vacuum with extra virgin olive oil, parsley, rosemary and garlic. Cook at 55 ºC, 30 minutes in a casserole or in the #thermomix speed with a spoon, reverse rotation. Remove and reserve.",
+        "frase2": "In a wide frying pan, put extra virgin olive oil, sugar and water. Peel the vegetables and confit them in the previous frying pan over very low heat for 30 minutes. Off the heat, put the oil that is in the vacuum bag in a clean bowl, leave the cocochas in the pan and, with circular movements, off the heat, gradually add the previously removed oil.The collagen and gelatin that have detached will generate a fine and tasty emulsion, the PIL pil.",
+        "frase3": "On the other hand we are going to cook the black pasta with vegetable broth until it is al dente, drain and now plate. We put the pasta and place a cococha on top and the candied vegetables around it. We water with the oil from the pil- pil",
+        "ingredientes": "🛒Ingredients: Cocochas. @saladureshectorperis EVOO Parsley 🌿, rosemary and garlic.   Black cuttlefish pasta. Vegetable broth🥕🍆🌶🥦🥒   Shallots   , carrots 🥕, aubergine 🍆 and baby potatoes 🥔. sugar. "
     }
 }

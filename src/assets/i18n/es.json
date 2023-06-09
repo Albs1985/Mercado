@@ -1,19 +1,28 @@
 {
     "app": {
-        "comprar": "Comprar",
-        "titulo": "Saladuras Hector Peris",
+        "comprar": "Compra Online - Servicio a domicilio",
+        "titulo": "Saladuras Hèctor Peris",
         "cargando": "Carregant...",
         "espere": "Espere por favor",
         "nom": "Hèctor Peris Carratalà",
-        "verMas" : "Leer Más"
+        "verMas" : "Leer Más",
+        "creador": "Albert Serrador",
+        "ingrediente" : "Ingredientes",
+        "empezamos": "Empezamos!",
+        "paso1":"Primero paso",
+        "paso2":"Segundo paso",
+        "paso3":"Tercer paso"
     },
     "main": {
         "idioma": "Idioma",
         "spanish": "Español",
         "english": "Inglés",
         "catalan": "Catalán",
+        "valencia": "Valenciano",
         "home": "Inicio",
         "galeria": "Galería",
+        "somos" : "Quienes somos",
+        "recetas": "Recetas",
         "video": "Vídeo",
         "sobre": "Acerca de mí",
         "productos": "Productos",
@@ -34,7 +43,8 @@
         "emailDomicilio": "pedidos@mercadocentralvalencia.es",
         "parada": "Parada 77 y 78",
         "horario": "De lunes a sábado de 7.30 a 15.00h",
-        "gremio": "Salazones y encurtidos"
+        "gremio": "Salazones y encurtidos",
+        "condicionesServicio": "Consulta las condiciones del servicio a domicilio del Mercado Central"
     },
     "menuCentral": {
         "categoriasTitulo": "Nuestros productos",
@@ -48,6 +58,65 @@
     },
     "productos":{
         "especialidadesTitulo": "Nuestras especialidades",
-        "especialidadesSub": "Elaborados de forma artesanal con la receta tradicional"
+        "especialidadesSub": "Elaborados de forma artesanal con la receta tradicional",
+        "ajoArriero": "Ajo Arriero",        
+        "sardinas" : "Sardinas Ahumadas",
+        "mojama" : "Mojama",
+        "olivas" : "Aceitunas",
+        "boquerones": "Boquerones en vinagre",
+        "pulpo" : "Pulpo a la brassa",
+        "descAjoarriero": "Elaborado con bacalao en salazón cocinado en una sartén con diversas verduras",
+        "descSardinas": "De las zonas costeras del Atlántico y del Mediterráneo",
+        "descMojama": "Salazón del lomo del atún",
+        "descOlivas": "La aceituna es una fruta, ni una verdura, ni una hortaliza.",
+        "descBoquerones": "Las anchoas y boquerones son la misma especie. La diferencia está en su preparación",
+        "descPulpo": "Braseado con especial cariño"
+        
+
+    },
+    "about":{
+        "titulo": "Toda una vida trabajando juntos, siempre creciendo",
+        "fraseHector1": "La paciencia y la dedicación hacen al buen pescador.",
+        "fraseHector2": "Un hombre tiene que creer en algo. Creo que me iré a pescar",
+        "fraseAlicia1": "En la pesca como en la vida, estudio y dedicación, superan a cualquier superstición",
+        "fraseAlicia2": "Un pez vale mucho para ser pescado una vez"
+        
+    },
+    "recetaEnsaladilla":{
+        "titulo": "Ensaladilla Rusa (versión Ricard Camarena)",
+        "descripcion": "La teoría que le otorga a Rusia el origen de este plato se basa en la figura poco rusa de Lucien Olivier (1838-1883), un cocinero belga de origen francés, que se hizo famoso en Moscú gracias a dispensar una ensalada en el restaurante -El Hermitage- que abrió en torno a 1860.",
+        "url": "assets/images/recetas/recetaEnsaladilla.jpg",
+        "frase1": "Cocer las patatas 🥔 y las zanahorias 🥕 enteras y con piel. Dejar que se enfríen, pelarlas y rallarlas. Escaldar la judía verde y picarla finita (esta le va a aportar el toque crunchy a una ensaladilla muy cremosa).",
+        "frase2": "Añadir el pimiento rojo 🌶picado, el atún 🐟y el huevo duro 🥚previamente rallado y amasar con las manos (para darle la máxima cremosidad posible) Añadir la mayonesa y dejar reposar 4 o 5 horas en el frigorífico.",
+        "frase3": "Servir con piquitos, lo he emplatado con anchoas del cantabrico y un aceite con pimentón",
+        "ingredientes": "🛒Ingredientes: .1/2 pimiento rojo 🌶asado o una lata pequeños.2 patatas 🥔medianas .2 zanahorias 🥕.6-7 judías verdes .2 huevos 🥚duros.3 latas atún 🐟 mejor si es en migas (es más sabroso) .150 g mayonesa ligera de @maille_esp.Picos..Anchoas del Cantábrico @saladureshectorperis "
+    },
+    "recetaCanutillos":{
+        "titulo": "Canutillos rellenos de pimiento asado y bacalao",
+        "descripcion": "Se dice que los portugueses, y especialmente los lisboetas, tienen 365 maneras de preparar el bacalao, una receta diferente para cada día del año.",
+        "url": "assets/images/recetas/recetaCanutillos.jpg",
+        "frase1": "Hacer una masa con los pimientos asados, la patata cocida y el bacalao. Añadir perejil y ajo. Formar los canutillos con los moldes.",
+        "frase2": "Pintar con huevo y poner ajonjolí. Meter los canutillos en el horno precalentado a 180 grados 25 minutos.",
+        "frase3": "Sacar u desmoldar sin quemarnos. Rellenar y servir.",
+        "ingredientes": "🛒Ingredientes: 1 lámina de hojaldre @casa_tarradellas Patatas 🥔.Bacalao desalado 🐟 @saladureshectorperis - Pimientos rojos🌶 asados .Perejil 🌿, ajo 🧄 . 1 huevo 🥚 @huevos.monterde . Aove  . ajonjolí "
+    },
+    "recetaTitaina":{
+        "titulo": "Titaina",
+        "descripcion": "La Titaina es una gran desconocida fuera de los poblados marítimos de Valencia, el Cabanyal, Canyamelar, Gráu i Natzaret.",
+        "url": "assets/images/recetas/recetaTitaina.jpg",
+        "frase1": "Comenzaramos rallando los 🍅 . Enjuagamos, y escurrimos los pimientos ,los troceamos y lo mismo hacemos con los ajitos 🧄. Calentamos el aceite y echamos los piñones y los ajos🧄 cuando empiezan a tomar color, añadimos la «tonyina de sorra» desmigajada,doramos un poquito, sacamos del aceite y reservamos Pomemos a freír los pimientos, pero con cuidado no se hagan demasiado, no han de quedar blandos, porque luego se acabarán de hacer con el tomate🍅, sacamos y reservamos.",
+        "frase2": "Ahora freimos el tomate 🍅en el mismo aceite que ya tendrá todos los sabores anteriores. Cocinamos 30 minutos⏰ a fuego🔥 medio-bajo hasta que reduzca todo el agua, añadimos la sal y el azúcar. Incorporamos los pimientos, la tonyina y los ajitos dejaremos unos cinco minutos mas y apagamos el fuego",
+        "frase3": "Este plato está mucho mejor de un día para otro, y acompañado de mucho pan porque está de toma pan 🥖 🥖y ¡¡¡MOJAAAA!!!",
+        "ingredientes": "🛒Ingredientes: Un kilo de tomates maduros. 🍅 Un pimiento rojo. 🌶 Un pimiento verde. Una cucharada de postre de sal.🧂 Una cucharada de postre de azúcar. Cuatro cucharadas soperas de aceite de oliva. Tres dientes de ajo. 🧄 75 g de piñones. 400 g de «tonyina de sorra». Pan cristal recién horneado. 🥖"
+    },
+    "recetaPastaNegra":{
+        "titulo": "Pasta Negra con cococha de bacalao a baja temperatura",
+        "descripcion": "El cocinado a baja temperatura es una técnica culinaria de la alta cocina y ya no tiene que ser solo de grandes chefs, ahora en casa podemos disfrutar de esa elaboración en casa, solo necesitamos una envasadora al vacío y cocer o bien en una cazuela a 55 grados o en la #thermomix como yo lo he hecho. En esta ocasión he usado unas cocochas de @saladureshectorperis, espectacular la calidad de todos sus productos, os recomiendo que le hagáis una visita, no os defraudará.",
+        "url": "assets/images/recetas/recetaPastaNegra.jpg",
+        "frase1": "Envasar las cocochas al vacío con aceite de oliva virgen extra , perejil, romero y ajo. Cocer a 55 ºC, 30 minutos en una cazuela o en la #thermomix velocidad cuchara giro inverso. Sacar y reservar.",
+        "frase2": "En una sartén ancha, poner aceite de oliva virgen extra, azucar y agua. Pelamos las verduras y las confítanos en la sartén anterior a fuego muy bajo durante 30 minutos. Fuera del fuego, poner el aceite que está en la bolsa del vacío en un bol limpio, dejar las cocochas en la sartén y, con movimientos circulares, fuera del fuego, ir añadiendo a hilo el aceite retirado anteriormente. El colágeno y la gelatina que se han desprendido generará una emulsión fina y sabrosa, el pil-pil.",
+        "frase3": "Por otro lado vamos a cocer la pasta negra con caldo de verduras hasta que esté al dente, escurrimos y ahora emplatamos. Ponemos la pasta y encima colocamos una cococha y la verdura confitada alrededor. Regamos con el aceite del pil-pil",
+        "ingredientes": "🛒Ingredientes: Cocochas. @saladureshectorperis Aove Perejil 🌿, romero y ajo.🧄 Pasta negra de sepia.  Caldo de verduras🥕🍆🌶🥦🥒🥬  Chalotas 🧅, zanahorias 🥕 , berenjena 🍆 y patatas 🥔 baby. Azúcar."
     }
+
 }

@@ -1,20 +1,30 @@
 {
     "app": {
-        "comprar": "Comprar",
+        "comprar": "Compra Online - Servei a domicili",
         "titulo": "Saladures Hector Peris",
         "galeriaImagenes": "Galeria d'Imatges",
         "cargando": "Carregant...",
         "espere": "Espere per favor",
         "nom": "Hèctor Peris Carratalà",
-        "verMas" : "Llegir Més"
+        "creador": "Albert Serrador",
+        "verMas" : "Llegir Més",
+        "ingrediente" : "Ingredients",
+        "empezamos": "Comencem!",
+        "paso1":"Primer pas",
+        "paso2":"Segon pas",
+        "paso3":"Tercer pas"
+
     },
     "main": {
         "idioma": "Idioma",
         "spanish": "Castellà",
         "english": "Anglès",
         "catalan": "Català",
+        "valencia": "Valencià",
         "home": "Inici",
         "galeria": "Galeria",
+        "somos" : "Qui som",
+        "recetas": "Receptes",
         "video": "Vídeo",
         "sobre": "Quant a mi",
         "productos": "Productes",
@@ -35,7 +45,8 @@
         "emailDomicilio": "pedidos@mercadocentralvalencia.es",
         "parada": "Numero 77 y 78",
         "horario": "De dilluns a dissabte de 7.30 a 15.00h",
-        "gremio": "Salasons i adobats"
+        "gremio": "Salasons i adobats",
+        "condicionesServicio": "Consulta les condicions del servei a domicili del Mercat Central"
     },
     "menuCentral": {
         "categoriasTitulo": "Els nostres productes",
@@ -49,6 +60,62 @@
     },
     "productos":{
         "especialidadesTitulo": "Les nostres especialitats",
-        "especialidadesSub": "Elaborats de forma artesanal amb la recepta tradicional"
+        "especialidadesSub": "Elaborats de forma artesanal amb la recepta tradicional",
+        "ajoArriero": "Ajo Arriero",
+        "sardinas" : "Sardines fumades",
+        "mojama" : "Moixama",
+        "olivas" : "Olives",
+        "boquerones": "Boquerons en vinagre",
+        "pulpo" : "Polp a la brassa",
+        "descAjoarriero": "Elaborat amb bacallà a salaó cuinat en una paella amb diverses verdures",
+        "descSardinas": "De les zones costaneres de l'Atlàntic i del Mediterrani",
+        "descMojama": "Salaó del llom de la tonyina",
+        "descOlivas": "L'oliva és una fruita, ni una verdura, ni una hortalissa.",
+        "descBoquerones": "Les anxoves i seitons són la mateixa espècie. La diferència està en la seva preparació",
+        "descPulpo": "Brassejat amb especial afecte"
+    },
+    "about":{
+        "titulo": "Tota una vida treballant junts, sempre creixent",
+        "fraseHector1": "La paciència i la dedicació fan el bon pescador.",
+        "fraseHector2": "Un home ha de creure en alguna cosa. Crec que me n'aniré a pescar",
+        "fraseAlicia1": "A la pesca com a la vida, estudi i dedicació, superen qualsevol superstició",
+        "fraseAlicia2": "Un peix val molt per ser peix una vegada"
+        
+    },
+    "recetaEnsaladilla":{
+        "titulo": "Ensaladilla Rusa (versió Ricard Camarena)",
+        "descripcion": "La teoria que li atorga a Rússia l'origen d'aquest plat es basa en la figura poc russa de Lucien Olivier (1838-1883), un cuiner belga d'origen francès, que es va fer famós a Moscou gràcies a dispensar-ne una amanida al restaurant -L'Hermitage- que va obrir al voltant del 1860.",
+        "url": "assets/images/recetas/recetaEnsaladilla.jpg",
+        "frase1": "Coure les creïlles 🥔 i les carlotes 🥕 senceres i amb pell. Deixeu que es refredin, peleu-les i ratlleu-les. Escaldeu la mongeta tendra i piqueu-la fineta (aquesta li aportarà el toc crunchy a una ensalada molt cremosa). ",
+        "frase2": "Afegir el pebrot vermell 🌶picat, la tonyina 🐟i l'ou dur 🥚 prèviament ratllat i amassar amb les mans (per donar-li la màxima cremositat possible) Afegir la maionesa i deixar reposar 4 o 5 hores a la nevera.",
+        "frase3": "Servir amb piquets, ho he emplatat amb anxoves del cantàbric i un oli amb pebre vermell",
+        "ingredientes": "🛒Ingredients: \n1/2 pebrot vermell 🌶rostit o una llauna petits \n2 patates 🥔mitjanes \n2 pastanagues 🥕\n6-7 mongetes tendres \n2 ous 🥚duros\n3 llaunes tonyina 🐟 (és més saborós) \n150 g maionesa lleugera de @maille_cat\nPicos.\nAnxoves del Cantàbric @saladureshectorperis "
+    },
+    "recetaCanutillos":{
+        "titulo": "Canutets farcits de pebrot rostit i bacallà",
+        "descripcion": "Es diu que els portuguesos, i especialment els lisboetes, tenen 365 maneres de preparar el bacallà, una recepta diferent per a cada dia de l'any.",
+        "url": "assets/images/recetas/recetaCanutillos.jpg",
+        "frase1": "Fer una massa amb els pebrots rostits, la patata cuita i el bacallà. Afegir julivert i all. Formar els canonets amb els motlles.",
+        "frase2": "Pintar amb ou i posar ajonjolí. Ficar els canonets al forn preescalfat a 180 graus 25 minuts.",
+        "frase3": "Treure o desemmotllar sense cremar-nos. Omplir i servir.",
+        "ingredientes": "🛒Ingredients: \n1 làmina de pasta de full @casa_tarradellas \nPatatas 🥔 \nBacallà dessalat 🐟 @saladureshectorperis - Pebrots vermells🌶 rostits \nPerejil 🌿, all \n. n ajonjolí "
+    },
+    "recetaTitaina":{
+        "titulo": "Titaina",
+        "descripcion": "La Titaina és una gran desconeguda fora dels poblats marítims de València, el Cabanyal, Canyamelar, Gráu i Natzaret",
+        "url": "assets/images/recetas/recetaTitaina.jpg",
+        "frase1": "Començarem ratllant els 🍅 . Esbandim, i escorrem els pebrots, els trossegem i el mateix fem amb els allets. Escalfem l'oli i tirem els pinyons i els alls    quan comencen a prendre color, afegim la «tonyina de sorra» esmicolada, daurem una mica, treiem de l'oli i reservem Pomem a fregir els pebrots, però amb compte no es facin massa, no han de quedar tous, perquè després s'acabaran de fer amb el tomàquet🍅, traiem i reservem.",
+        "frase2": "Ara fregim el tomàquet 🍅en el mateix oli que ja tindrà tots els sabors anteriors. Cuinem 30 minuts⏰ a foc🔥 mig-baix fins que redueixi tota l'aigua, afegim la sal i el sucre. Incorporem els pebrots, la tonyina i els allets deixarem uns cinc minuts més i apaguem el foc",
+        "frase3": "Aquest plat està molt millor d'un dia per l'altre, i acompanyat de molt de pa perquè està de presa de pa 🥖 🥖i SUCAAAA!!!",
+        "ingredientes": "🛒Ingredients: Un quilo de tomàquets madurs. 🍅 Un pebrot vermell. 🌶 Un pebrot verd. Una cullerada de postres de sal.   Una cullerada de postres de sucre. Quatre cullerades soperes d'oli d'oliva. Tres dents de all. 75 g de pinyons. 400 g de «atrina de arena». Pa vidre acabat de fer. 🥖"
+    },
+    "recetaPastaNegra":{
+        "titulo": "Pasta Negra amb cocotxa de bacallà a baixa temperatura",
+        "descripcion": "El cuinat a baixa temperatura és una tècnica culinària de l'alta cuina i ja no ha de ser només de grans xefs, ara a casa podem gaudir d'aquesta elaboració a casa, només necessitem una envasadora al buit i coure o bé en una cassola a 55 graus oa la #thermomix com jo ho he fet. En aquesta ocasió he fet servir unes cocotxes de @saladureshectorperis, espectacular la qualitat de tots els seus productes, us recomano que us feu una visita, no us defraudarà.",
+        "url": "assets/images/recetas/recetaPastaNegra.jpg",
+        "frase1": "Envasar les cocotxes al buit amb oli d'oliva verge extra, julivert, romaní i all. Coure a 55 ºC, 30 minuts en una cassola oa la #thermomix velocitat cullera gir invers. Treure i reservar.",
+        "frase2": "En una paella ampla, posar oli d'oliva verge extra, sucre i aigua. Pelem les verdures i les confita'ns a la paella anterior a foc molt baix durant 30 minuts. Fora del foc, posar l'oli que està a la bossa del buit en un bol net, deixar les cocotxes a la paella i, amb moviments circulars, fora del foc, anar afegint a fil l'oli retirat anteriorment El col·lagen i la gelatina que s'han desprès generarà una emulsió fina i saborosa pil-pil.",
+        "frase3": "D'altra banda coem la pasta negra amb brou de verdures fins que estigui al dente, escorrem i ara emplatem. Posem la pasta i damunt col·loquem una cocotxa i la verdura confitada al voltant. Regem amb l'oli del pil- pil",
+        "ingredientes": "🛒Ingredients: Cocotxes. @saladureshectorperis Aove Julivert 🌿, romaní i all.   Pasta negra de sípia. Brou de verdures🥕🍆🌶🥦🥒   Chalotas   , zaje 🥔 baby: Sucre. "
     }
 }

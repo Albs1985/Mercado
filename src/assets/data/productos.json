@@ -1,0 +1,104 @@
+{
+    "aceitunasNegras":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/olivasNegras.jpg"
+    },
+    "aceitunasManzanilla":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/aceitunasManzanilla.jpg"
+    },
+    "aceitunasMoradas":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/aceitunasMoradas.jpg"
+    },
+    "ajoArriero":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/ajoArriero.jpg"
+    },
+    "anchoas":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/anchoas.jpg"
+    },
+    "boquerones":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/boquerones.jpg"
+    },
+    "capellanets":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/capellanets.jpg"
+    },
+    "croquetas":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/croquetas.jpg"
+    },
+    "croquetas2":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/croquetas2.jpg"
+    },
+    "espencat":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/espencat.jpg"
+    },
+    "huevasAtun":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/huevasAtun.jpg"
+    },
+    "huevasMaruca":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/huevasMaruca.jpg"
+    },
+    "huevasMujol":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/huevasMujol.jpg"
+    },
+    "mojama":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/mojama.jpg"
+    },
+    "pulpo":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/pulpo.jpg"
+    },
+    "pulpo2":{
+        "categoria": "prodArtesanos",
+        "cod": "1",
+        "url": "assets/images/productos/pulpo2.jpg"
+    },
+    "tonyina":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/tonyina.jpg"
+    },
+    "sardinasBota":{
+        "categoria": "aceitunasEncurtidos",
+        "cod": "1",
+        "url": "assets/images/productos/sardinasBota.jpg"
+    },
+    "conservas1":{
+        "categoria": "conservas",
+        "cod": "1",
+        "url": "assets/images/categorias/conservas.jpg"
+    },
+    "conservas2":{
+        "categoria": "conservas",
+        "cod": "1",
+        "url": "assets/images/categorias/conservas2.jpg"
+    }
+    
+}
+    
