@@ -45,3 +45,7 @@ git push -u origin main
 git remote add origin https://github.com/Albs1985/Mercado.git
 git branch -M main
 git push -u origin main
+
+
+## DETALLES
+Para poder crear componentes, quitar el prefix del angular.json, y dejar solo app
