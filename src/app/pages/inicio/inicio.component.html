@@ -1,10 +1,10 @@
-<div class="wrapper bgded overlay" style="background-image:url('assets/images/backgrounds/mercadoCentral.png');">
+<div class="wrapper bgded overlay" style="background-image:url('assets/images/backgrounds/ParadaHector.png');">
     <div id="pageintro" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <article>
-        <h2 class="heading">Vivamus tempor purus mauris sollicitudin</h2>
+        <h2 class="heading">{{ 'app.titulo' | translate }}</h2>
         <p>{{ 'main.descripcionParada' | translate }}</p>
-        <footer><a target="_blank" class="btn" href="https://www.mercadocentralvalencia.es/mercado/productosparada?seccionid=12&puestoid=66&comprarweb=false">Comprar</a></footer>
+        <footer><a target="_blank" class="btn" href="https://www.mercadocentralvalencia.es/mercado/productosparada?seccionid=12&puestoid=66&comprarweb=false">{{ 'app.comprar' | translate }}</a></footer>
       </article>
       <!-- ################################################################################################ -->
     </div>
@@ -20,20 +20,20 @@
         <p class="nospace">{{ 'menuCentral.categoriasSub' | translate }}</p>
       </div>
       <div class="group">
-        <article class="one_third first"><a href="#"><img class="btmspace-30" src="assets/images/320x210.png" alt=""></a>
+        <article class="one_third first"><a routerLink="/galeria/aceitunasEncurtidos"><img class="btmspace-30" src="assets/images/categorias/aceitunasEncurtidos.jpg" alt=""></a>
           <h4 class="nospace font-x1">{{ 'menuCentral.aceitunasEncurtidosTitulo' | translate }}</h4>
           <p>{{ 'menuCentral.aceitunasEncurtidosSub' | translate }}</p>
-          <footer><a class="btn" href="#">{{ 'app.verMas' | translate }}</a></footer>
+          <footer><a class="btn" routerLink="/galeria/prodArtesanos">{{ 'app.verMas' | translate }}</a></footer>
         </article>
-        <article class="one_third"><a href="#"><img class="btmspace-30" src="assets/images/320x210.png" alt=""></a>
+        <article class="one_third"><a routerLink="/galeria/conservas"><img class="btmspace-30" src="assets/images/categorias/conservas.jpg" alt=""></a>
           <h4 class="nospace font-x1">{{ 'menuCentral.conservasTitulo' | translate }}</h4>
           <p>{{ 'menuCentral.conservasSub' | translate }}</p>
-          <footer><a class="btn" href="#">{{ 'app.verMas' | translate }}</a></footer>
+          <footer><a class="btn" routerLink="/galeria/prodArtesanos">{{ 'app.verMas' | translate }}</a></footer>
         </article>
-        <article class="one_third"><a href="#"><img class="btmspace-30" src="assets/images/320x210.png" alt=""></a>
+        <article class="one_third"><a routerLink="/galeria/prodArtesanos"><img class="btmspace-30" src="assets/images/categorias/productosArtesanos.jpg" alt=""></a>
           <h4 class="nospace font-x1">{{ 'menuCentral.prodArtesanosTitulo' | translate }}</h4>
           <p>{{ 'menuCentral.prodArtesanosSub' | translate }}</p>
-          <footer><a class="btn" href="#">{{ 'app.verMas' | translate }}</a></footer>
+          <footer><a class="btn" routerLink="/galeria/prodArtesanos">{{ 'app.verMas' | translate }}</a></footer>
         </article>
       </div>
       <!-- ################################################################################################ -->
@@ -87,56 +87,56 @@
       </div>
       <ul class="nospace group">
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/01.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/ajoArriero.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Malesuada</h6>
-              <p>Mauris quis commodo massa nam enim nulla luctus sit amet suscipit.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.ajoArriero' | translate }}</h6>
+              <p>{{ 'productos.descAjoarriero' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/02.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/boquerones.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Pellentesque</h6>
-              <p>Vitae suscipit eget aliquam id purus vehicula malesuada convallis.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.sardinas' | translate }}</h6>
+              <p>{{ 'productos.descSardinas' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/01.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/huevasAtun.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Molestie</h6>
-              <p>Eros placerat eget curabitur lobortis enim quis leo tempor porta.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.mojama' | translate }}</h6>
+              <p>{{ 'productos.descMojama' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/02.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/olivasNegras.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Ultricies</h6>
-              <p>Quis dapibus scelerisque lacus felis mollis risus at tristique dolor.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.olivas' | translate }}</h6>
+              <p>{{ 'productos.descOlivas' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/01.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/tonyina.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Tincidunt</h6>
-              <p>Ultricies efficitur nulla id ullamcorper erat cras nec quam vel urna.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.boquerones' | translate }}</h6>
+              <p>{{ 'productos.descBoquerones' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure class="txtoverlay"><a href="#"><img src="assets/images/latest/02.png" alt=""></a>
+          <figure class="txtoverlay"><a href="#"><img src="assets/images/productos/pulpo.jpg" alt=""></a>
             <figcaption class="txtcaption">
-              <h6 class="heading">Vehicula</h6>
-              <p>Urna convallis vitae pellentesque odio faucibus sed porta molestie est.</p>
-              <footer><a href="#">View Details &raquo;</a></footer>
+              <h6 class="heading">{{ 'productos.pulpo' | translate }}</h6>
+              <p>{{ 'productos.descPulpo' | translate }}</p>
+              <!-- <footer><a href="#">View Details &raquo;</a></footer> -->
             </figcaption>
           </figure>
         </li>
@@ -150,25 +150,36 @@
       <article>
         <h2 class="heading font-x3">{{ 'main.nomMercat' | translate }}<br></h2>
         <p class="btmspace-50">{{ 'main.descripcionMercado' | translate }}</p>
-        <p class="btmspace-50"><a class="btn" href="#">{{ 'app.verMas' | translate }}</a></p>
-        <footer class="font-xs">** {{ 'main.enlaceExterno' | translate }}<br>
-        </footer>
+        <p class="btmspace-50"><a class="btn" href="https://www.mercadocentralvalencia.es/">{{ 'app.verMas' | translate }}</a></p>
+        <!-- <footer class="font-xs">** {{ 'main.enlaceExterno' | translate }}<br>
+        </footer> -->
       </article>
       <!-- ################################################################################################ -->
     </div>
   </div>
+  <div class="wrapper bgded" style="background-image:url('assets/images/servicioDomicilio.jpg');">
+    <ul class="nospace group clrbox">
+      <li>
+        <article>
+          <h4 class="heading">{{ 'footer.textoMercado' | translate }}</h4>
+          <p>{{ 'footer.condicionesServicio' | translate }}</p>
+          <footer><a class="btn" href="https://www.mercadocentralvalencia.es/Comprar/ServicioDomicilio">{{ 'app.verMas' | translate }}</a></footer>
+        </article>
+      </li>            
+    </ul>
+  </div>
   <!-- ################################################################################################ -->
+  <!-- ################################SOLES ES VEU LA IMATGE EN PC, EN MOVIL NO####################### -->
   <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="wrapper bgded" style="background-image:url('assets/images/backgrounds/mercadoCentral.png');">
+  <!-- <div class="wrapper bgded" style="background-image:url('assets/images/backgrounds/mercadoCentral.png');">
     <div class="hoc split clear">
       <article class="box clear"> 
         <h6 class="heading">{{ 'main.nomMercat' | translate }}</h6>
         <p class="btmspace-30">{{ 'main.descripcionMercado' | translate }}</p>
-        <footer><a class="btn" href="#">{{ 'app.verMas' | translate }}</a></footer>
+        <footer><a class="btn" href="https://www.mercadocentralvalencia.es/">{{ 'app.verMas' | translate }}</a></footer>
       </article>
     </div>
-  </div>
+  </div> -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->

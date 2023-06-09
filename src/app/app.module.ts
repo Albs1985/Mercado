@@ -10,13 +10,19 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { AboutComponent } from './pages/about/about.component';
+import { GaleriaComponent } from './pages/galeria/galeria.component';
+import { RecetasComponent } from './pages/recetas/recetas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    InicioComponent
+    InicioComponent,
+    AboutComponent,
+    GaleriaComponent,
+    RecetasComponent
   ],
   imports: [
     BrowserModule,
@@ -37,5 +43,5 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 export class AppModule { }
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }

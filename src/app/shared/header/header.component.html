@@ -1,29 +1,35 @@
 <div class="wrapper row1">
   <header id="header" class="hoc clear">       
     <div id="logo" class="fl_left">
-      <h1><a href="index.html">{{ 'app.titulo' | translate }}<img class="logoPez" src="assets/images/logoPez.png"></a></h1>
+      <h1><a href="#">{{ 'app.titulo' | translate }}<img class="logoPez" src="assets/images/logoPez.png"></a></h1>
     </div>
     
     <nav id="mainav" class="fl_right">
       <ul class="clear">
-        <li class="active"><a href="index.html">{{ 'main.home' | translate }}</a></li>
-        <li><a class="drop" href="#">{{ 'main.productos' | translate }}</a>
+        <li class="active"><a href="#">{{ 'main.home' | translate }}</a></li>
+        <li><a class="drop">{{ 'main.productos' | translate }}</a>
           <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/full-width.html">Full Width</a></li>
-            <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+            <li><a routerLink="/galeria/aceitunasEncurtidos">{{ 'menuCentral.aceitunasEncurtidosTitulo' | translate }}</a></li>
+            <li><a routerLink="/galeria/conservas">{{ 'menuCentral.conservasTitulo' | translate }}</a></li>
+            <li><a routerLink="/galeria/prodArtesanos">{{ 'menuCentral.prodArtesanosTitulo' | translate }}</a></li>
           </ul>
         </li>
-        <li><a class="drop" href="#">{{ 'main.idioma' | translate }}</a>
+        <li><a class="drop">{{ 'main.recetas' | translate }}</a>
           <ul>
-            <li><a (click)="changeLanguageToCatalan()" href="#">{{ 'main.catalan' | translate }}</a></li>
-            <li><a (click)="changeLanguageToSpanish()" href="#">{{ 'main.spanish' | translate }}</a></li>            
-            <li><a (click)="changeLanguageToEnglish()" href="#">{{ 'main.english' | translate }}</a></li>
+            <li><a routerLink="/recetas/Ensaladilla">{{ 'recetaEnsaladilla.titulo' | translate }}</a></li>
+            <li><a routerLink="/recetas/Canutillos">{{ 'recetaCanutillos.titulo' | translate }}</a></li>            
+            <li><a routerLink="/recetas/Titaina">{{ 'recetaTitaina.titulo' | translate }}</a></li>   
+            <li><a routerLink="/recetas/PastaNegra">{{ 'recetaPastaNegra.titulo' | translate }}</a></li>
           </ul>
         </li>
-        <li><a href="#">{{ 'main.redes' | translate }}</a></li>
+        <li><a class="drop">{{ 'main.idioma' | translate }}</a>
+          <ul>
+            <li><a (touchstart)="changeLanguageToCatalan()" (click)="changeLanguageToCatalan()">{{ 'main.valencia' | translate }}</a></li>
+            <li><a (touchstart)="changeLanguageToSpanish()" (click)="changeLanguageToSpanish()">{{ 'main.spanish' | translate }}</a></li>            
+            <li><a (touchstart)="changeLanguageToEnglish()" (click)="changeLanguageToEnglish()">{{ 'main.english' | translate }}</a></li>
+          </ul>
+        </li>       
+        <li><a routerLink="about">{{ 'main.somos' | translate }}</a></li>
       </ul>
     </nav>
 

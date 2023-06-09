@@ -8,10 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'mercado';
-
+  
   constructor(translate: TranslateService){
-    translate.setDefaultLang('es');
-    translate.use('es');
+    translate.setDefaultLang('cat');
+    translate.use('cat');
   }
 
 }
