@@ -1,6 +1,55 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <div class="wrapper row1">
-  <header id="header" class="hoc clear">       
-    <div id="logo" class="fl_left">
+  <header id="header" class="hoc clear">      
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainav">
+      <div id="logo" class="fl_left">
+        <h1><a href="#">{{ 'app.titulo' | translate }}<img class="logoPez" src="assets/images/logoPez.png"></a></h1>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <strong>MENU</strong>
+      </button>      
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="dropdown-menu">
+            <a class="nav-link" href="#">{{ 'main.home' | translate }}</a>
+          </li>
+          <li class="dropdown-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ 'main.productos' | translate }}
+            </a>
+            <div class="dropdown-menu">
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/galeria/aceitunasEncurtidos">{{ 'menuCentral.aceitunasEncurtidosTitulo' | translate }}</a></li>
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/galeria/conservas">{{ 'menuCentral.conservasTitulo' | translate }}</a></li>
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/galeria/prodArtesanos">{{ 'menuCentral.prodArtesanosTitulo' | translate }}</a></li>
+            </div>
+          </li>
+          <li class="dropdown-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ 'main.recetas' | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/recetas/Ensaladilla">{{ 'recetaEnsaladilla.titulo' | translate }}</a></li>
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/recetas/Canutillos">{{ 'recetaCanutillos.titulo' | translate }}</a></li>            
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/recetas/Titaina">{{ 'recetaTitaina.titulo' | translate }}</a></li>   
+              <li class="fondoLi" routerLinkActive="active"><a routerLink="/recetas/PastaNegra">{{ 'recetaPastaNegra.titulo' | translate }}</a></li>
+            </div>
+          </li>
+          <li class="dropdown-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ 'main.idioma' | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="fondoLi" ><a (touchstart)="changeLanguageToCatalan()" (click)="changeLanguageToCatalan()">{{ 'main.valencia' | translate }}</a></li>
+              <li class="fondoLi" ><a (touchstart)="changeLanguageToSpanish()" (click)="changeLanguageToSpanish()">{{ 'main.spanish' | translate }}</a></li>            
+              <li class="fondoLi" ><a (touchstart)="changeLanguageToEnglish()" (click)="changeLanguageToEnglish()">{{ 'main.english' | translate }}</a></li>
+            </div>
+          </li>
+          <li class="dropdown-menu"><a routerLink="about">{{ 'main.somos' | translate }}</a></li>
+        </ul>        
+      </div>
+    </nav>
+    <!-- <div id="logo" class="fl_left">
       <h1><a href="#">{{ 'app.titulo' | translate }}<img class="logoPez" src="assets/images/logoPez.png"></a></h1>
     </div>
     
@@ -9,17 +58,17 @@
         <li class="active"><a href="#">{{ 'main.home' | translate }}</a></li>
         <li><a class="drop">{{ 'main.productos' | translate }}</a>
           <ul>
-            <li><a routerLink="/galeria/aceitunasEncurtidos">{{ 'menuCentral.aceitunasEncurtidosTitulo' | translate }}</a></li>
-            <li><a routerLink="/galeria/conservas">{{ 'menuCentral.conservasTitulo' | translate }}</a></li>
-            <li><a routerLink="/galeria/prodArtesanos">{{ 'menuCentral.prodArtesanosTitulo' | translate }}</a></li>
+            <li routerLinkActive="active"><a routerLink="/galeria/aceitunasEncurtidos">{{ 'menuCentral.aceitunasEncurtidosTitulo' | translate }}</a></li>
+            <li routerLinkActive="active"><a routerLink="/galeria/conservas">{{ 'menuCentral.conservasTitulo' | translate }}</a></li>
+            <li routerLinkActive="active"><a routerLink="/galeria/prodArtesanos">{{ 'menuCentral.prodArtesanosTitulo' | translate }}</a></li>
           </ul>
         </li>
         <li><a class="drop">{{ 'main.recetas' | translate }}</a>
           <ul>
-            <li><a routerLink="/recetas/Ensaladilla">{{ 'recetaEnsaladilla.titulo' | translate }}</a></li>
-            <li><a routerLink="/recetas/Canutillos">{{ 'recetaCanutillos.titulo' | translate }}</a></li>            
-            <li><a routerLink="/recetas/Titaina">{{ 'recetaTitaina.titulo' | translate }}</a></li>   
-            <li><a routerLink="/recetas/PastaNegra">{{ 'recetaPastaNegra.titulo' | translate }}</a></li>
+            <li routerLinkActive="active"><a routerLink="/recetas/Ensaladilla">{{ 'recetaEnsaladilla.titulo' | translate }}</a></li>
+            <li routerLinkActive="active"><a routerLink="/recetas/Canutillos">{{ 'recetaCanutillos.titulo' | translate }}</a></li>            
+            <li routerLinkActive="active"><a routerLink="/recetas/Titaina">{{ 'recetaTitaina.titulo' | translate }}</a></li>   
+            <li routerLinkActive="active"><a routerLink="/recetas/PastaNegra">{{ 'recetaPastaNegra.titulo' | translate }}</a></li>
           </ul>
         </li>
         <li><a class="drop">{{ 'main.idioma' | translate }}</a>
@@ -31,7 +80,7 @@
         </li>       
         <li><a routerLink="about">{{ 'main.somos' | translate }}</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
   </header>
 </div>
